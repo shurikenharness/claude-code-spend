@@ -1,0 +1,34 @@
+{
+  "name": "claude-code-spend",
+  "version": "1.0.0",
+  "description": "What your Claude Code use on this computer would cost at Anthropic's API list prices: today, 7 days, 30 days, all time, by model. Reads local logs only.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "claude-code-spend": "claude-code-spend.mjs"
+  },
+  "files": [
+    "claude-code-spend.mjs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "commands": "node scripts/commands.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shurikenharness/claude-code-spend.git"
+  },
+  "homepage": "https://shuriken.sh/tools/claude-code-spend",
+  "keywords": [
+    "claude-code",
+    "claude",
+    "anthropic",
+    "cost",
+    "usage",
+    "tokens",
+    "cli"
+  ]
+}
